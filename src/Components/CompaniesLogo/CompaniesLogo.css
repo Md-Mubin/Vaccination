@@ -1,0 +1,15 @@
+/* =============== Companies Logos Css Part Start =============== */
+
+.companiesLogo{
+    @apply w-full bg-[rgba(255,255,255,0.50)] pt-[5px] md:pt-[11px] lg:pt-[21px] pb-[3px] md:pb-2 lg:pb-[10px] 
+}
+
+.companiesLogoRow{
+    @apply flex gap-12 items-center justify-between
+}
+
+.companiesLogoRow li .images{
+    @apply w-[72px] md:w-[148px] lg:w-[289px] 
+}
+
+/* =============== Companies Logos Css Part End =============== */

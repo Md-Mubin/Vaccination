@@ -1,0 +1,57 @@
+/* =============== Navbar Responsive Css Part Start =============== */
+
+.resNav{
+    @apply block lg:hidden relative
+}
+
+.resNavRow{
+    @apply flex justify-between items-center
+}
+
+/* logo for responsive nav */
+.resLogo{
+    @apply w-[142px] md:w-[200px]
+}
+
+/* button for responsive nav */
+.resNavRow button{
+    @apply text-[30px] md:text-4xl text-[#fff] rotate-[-90deg] p-2 bg-[rgba(196,196,196,0.15)] rounded-[10px] shadow-[-2px_0px_2px_#000] duration-150
+}
+
+.resNavRow button:hover{
+    @apply bg-[rgba(196,196,196,0.25)]
+}
+
+/* for responsive navbar show */
+.resNavOpen{
+    @apply w-full absolute top-[-200px] opacity-0 duration-200 pointer-events-none
+}
+
+/* for responsive navbar close */
+.resNavClose{
+    @apply w-full absolute top-0 opacity-100 duration-200
+}
+
+/* for responsive nav items */
+.resNavItems{
+    @apply py-2 bg-brandColor rounded-lg flex flex-col gap-2 text-center
+}
+
+.resNavItems a {
+    @apply w-full py-1 font-Montserrat font-normal md:font-medium text-xl md:text-2xl duration-300
+}
+
+.resNavItems a:hover{
+    @apply bg-[#0ecfff] text-[#fff]
+}
+
+/* for close the responsive nav bar */
+.resNavItems button{
+    @apply ml-[70%] md:ml-[85%] bg-brandColor rounded-sm duration-200 flex items-center gap-2 font-Montserrat font-medium text-lg
+}
+
+.resNavItems button:hover{
+    @apply text-[#fff] 
+}
+
+/* =============== Navbar Responsive Css Part End =============== */

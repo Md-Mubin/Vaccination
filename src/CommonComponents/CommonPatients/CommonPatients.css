@@ -1,0 +1,33 @@
+/* =============== Common Patients Cart Css Part Start =============== */
+
+.patientCart{
+    @apply px-[23px] md:px-[33px] pt-[23px] md:pt-[30px] pb-11 bg-[rgba(196,196,196,0.50)] rounded-[14px] md:rounded-[20px] duration-200 will-change-transform
+}
+
+.patientCart:hover{
+    @apply bg-brandColor scale-110
+}
+
+.patientCart:hover .cartHead h4, .patientCart:hover .cartHead h4 span, .patientCart:hover .patientsReview{
+    @apply text-[#fff]
+}
+
+/* cart head */
+.cartHead{
+    @apply flex gap-5 items-center
+}
+
+.cartHead h4{
+    @apply flex flex-col gap-[5px] font-Montserrat font-bold text-sm md:text-2xl text-[#000]
+}
+
+.cartHead h4 span{
+    @apply text-[10px] md:text-[14px] text-[rgba(0,0,0,0.50)]
+}
+
+/* reviews */
+.patientsReview{
+    @apply md:w-[333px] mt-[30px] md:mt-10 font-Montserrat font-medium text-sm md:text-lg text-[rgba(0,0,0,0.60)] text-center
+}
+
+/* =============== Common Patients Cart Css Part End =============== */

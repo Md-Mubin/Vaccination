@@ -1,0 +1,46 @@
+/* =============== Data Base Css Part Start =============== */
+
+.dataBase{
+    @apply w-full h-[497px] md:h-[596px] lg:h-[466px] relative py-[63px] 
+}
+
+/* data base background image css */
+.dataBase img{
+    @apply w-full h-full absolute top-0 z-[-10]
+}
+
+.dataBaseArea{
+    @apply pt-[61px] md:pt-[95px] lg:pt-[135px] pb-[31px] pl-[13px] md:pl-0 relative  bg-[rgba(196,196,196,0.10)] rounded-[20px]
+}
+
+.dataBaseHead{
+    @apply absolute top-0 left-0 w-full px-[31px] py-[14px] md:pt-[18px] md:pb-[13px] lg:py-9 bg-[rgba(196,196,196,0.05)] md:pl-[98px] lg:pl-[93px] rounded-t-[20px] font-Montserrat font-bold text-[10px] md:text-xl lg:text-2xl text-[#fff]
+}
+
+/* data base input area */
+.dataBaseInput{
+    @apply flex flex-wrap md:flex-col lg:flex-row items-center lg:justify-center gap-5 
+}
+
+.dataBaseInput input {
+    @apply  w-[280px] md:w-[448px] lg:w-[450px] py-[17px] md:py-5 pl-[18px] md:pl-[26px] bg-transparent border-[3px] border-[rgba(196,196,196,0.15)] rounded-[20px] font-Montserrat font-medium md:text-xl lg:text-2xl text-[rgba(255,255,255,0.50)] outline-none
+}
+
+.dataBaseInput button{
+    @apply py-[17px] md:py-5 px-[52px] md:px-[47px] md:mr-[40%] lg:mr-0 bg-[rgba(196,196,196,0.10)] border-[3px] rounded-[20px] border-brandColor font-Montserrat font-bold text-[14px] md:text-2xl text-brandColor
+}
+
+/* data base result link */
+.resultLink{
+    @apply py-[13px] md:pt-[14px] md:pb-[9px] lg:py-5 px-[25px] md:px-[45px] bg-[rgba(196,196,196,0.05)] rounded-[20px] mt-[35px] md:mx-[64px] lg:ml-[96px] mr-[13px] lg:mr-[90px] font-Montserrat font-bold text-[10px] md:text-[14px] lg:text-2xl text-brandColor text-center md:flex justify-center
+}
+
+.resultLink span{
+    @apply ml-1 underline duration-200 
+}
+
+.resultLink span:hover{
+    @apply cursor-pointer text-[#fff]
+}
+
+/* =============== Data Base Css Part End =============== */

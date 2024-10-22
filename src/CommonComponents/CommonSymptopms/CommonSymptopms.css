@@ -1,0 +1,15 @@
+/* =============== Common Symptomps Css Part Start =============== */
+
+h5{
+    @apply py-[5px] md:py-3 lg:py-[23px] pl-2 md:pl-5 lg:pl-[70px] pr-1 md:pr-2 lg:pr-8 bg-[rgba(196,196,196,0.20)] rounded-r-[10px] relative duration-200
+}
+
+h5:hover{
+    @apply scale-110 will-change-transform
+}
+
+.virusImage{
+    @apply w-[32px] md:w-[65px] lg:w-[100px] absolute left-[-25px] md:left-[-45px] lg:left-[-50px] top-[-5px] md:top-[-5px] lg:top-[-10px]
+}
+
+/* =============== Common Symptomps Css Part End =============== */

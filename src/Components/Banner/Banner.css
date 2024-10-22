@@ -1,0 +1,197 @@
+/* ================== Banner Common Style Part Start ================== */
+
+.banner{
+    @apply relative w-full h-[1104px] md:h-[1547px] lg:h-[1024px] 
+}
+
+/* banner background */
+.bannerBG{
+    @apply w-full h-full absolute
+}
+
+.bannerRow{
+    @apply relative top-0 pt-[127px] md:pt-[126px] lg:pt-[211px] flex flex-col gap-[55px] lg:gap-0 lg:flex-row justify-between 
+}
+
+/* ================== Banner Common Style Part End ================== */
+
+/* ================== Banner info Part Start ================== */
+
+.bannerInfo h2{
+    @apply font-Montserrat font-bold text-[12px] md:text-lg lg:text-2xl text-brandColor 
+}
+
+.bannerInfo h1{
+    @apply w-[278px] md:w-[414px] lg:w-[551px] font-Montserrat font-extrabold text-2xl md:text-4xl lg:text-5xl text-[#fff] my-5 md:my-10 lg:mt-10 lg:mb-[50px]
+}
+
+.bannerInfo h1 span{
+    @apply text-brandColor block
+}
+
+.bannerInfo p{
+    @apply w-[271px] md:w-[502px] lg:w-[610px] lg:font-Montserrat font-bold text-[14px] md:text-xl lg:text-2xl text-[rgba(255,255,255,0.70)] leading-normal
+}
+
+.buttons{
+    @apply flex gap-5 mt-5 lg:mt-[50px]
+}
+
+.bannerInfo .buttons button {
+    @apply py-[16.5px] md:py-5 px-[25px] bg-[rgba(196,196,196,0.)] border-2 rounded-[20px] font-Montserrat font-bold text-sm md:text-xl lg:text-2xl text-[#fff] duration-300
+}
+
+.buttons button:hover{
+    @apply bg-brandColor text-[#fff] border-brandColor
+}
+
+/* ================== Banner info Part End ================== */
+
+/* ================== Banner Image Part Start ================== */
+
+.bannerImage{
+    @apply relative w-[256px] md:w-[532px] m-auto lg:mr-[50px]
+}
+
+.bannerChild1{
+    @apply absolute w-[50px] md:w-[100px] md:top-[-50px] top-[-25px] md:left-[-50px] left-[-25px] animate-[xschild1_8s_ease-in-out_infinite] md:animate-[child1_8s_ease-in-out_infinite] /* added keyframe animation */
+}
+
+.bannerChild2{
+    @apply absolute w-[50px] md:w-[100px] md:bottom-[-50px] bottom-[-25px] md:right-[-50px] right-[-25px] animate-[xschild2_8s_ease-in-out_infinite] md:animate-[child2_8s_ease-in-out_infinite] /* added keyframe animation */
+}
+
+.bannerChild3{
+    @apply w-[238px] md:w-[374px] absolute md:bottom-[-50px] bottom-[-25px] md:left-[-50px] left-[-25px]
+}
+
+/*  for banner child - 1 ainimation  */
+@keyframes child1{
+    0% {
+        top: -50px;
+        left: -50px;
+    }
+    25% {
+        top: -50px;
+        left: calc(100% - 50px); 
+    }
+    50% {
+        top: calc(100% - 50px); 
+        left: calc(100% - 50px);
+    }
+    75% {
+        top: calc(100% - 50px); 
+        left: -50px;
+    }
+    100% {
+        top: -50px;
+        left: -50px;
+    }
+}
+
+/*  for extra small device banner child - 1 ainimation  */
+@keyframes xschild1{
+    0% {
+        top: -25px;
+        left: -25px;
+    }
+    25% {
+        top: -25px;
+        left: calc(100% - 25px); 
+    }
+    50% {
+        top: calc(100% - 25px); 
+        left: calc(100% - 25px);
+    }
+    75% {
+        top: calc(100% - 25px); 
+        left: -25px;
+    }
+    100% {
+        top: -25px;
+        left: -25px;
+    }
+}
+
+/*  for banner child - 2 ainimation  */
+@keyframes child2{
+    0% {
+        bottom: -50px;
+        right: -50px;
+    }
+    25% {
+        bottom: -50px;
+        right: calc(100% - 50px); 
+    }
+    50% {
+        bottom: calc(100% - 50px); 
+        right: calc(100% - 50px);
+    }
+    75% {
+        bottom: calc(100% - 50px); 
+        right: -50px;
+    }
+    100% {
+        bottom: -50px;
+        right: -50px;
+    }
+}
+
+/*  for extra small device banner child - 2 ainimation  */
+@keyframes xschild2{
+    0% {
+        bottom: -25px;
+        right: -25px;
+    }
+    25% {
+        bottom: -25px;
+        right: calc(100% - 25px); 
+    }
+    50% {
+        bottom: calc(100% - 25px); 
+        right: calc(100% - 25px);
+    }
+    75% {
+        bottom: calc(100% - 25px); 
+        right: -25px;
+    }
+    100% {
+        bottom: -25px;
+        right: -25px;
+    }
+}
+
+/* ================== Banner Image Part End ================== */
+
+/* ================== Schedule Part Start ================== */
+
+.scheduleHead{
+    @apply absolute flex gap-[10px] md:gap-5 items-center top-[812px] md:top-[1223px] lg:top-[804px] 
+}
+
+.scheduleHead h5{
+    @apply p-[5px] md:p-[10px] bg-[rgba(196,196,196,0.10)] text-brandColor text-xl md:text-[30px] rounded-[10px]
+}
+
+.scheduleHead p{
+    @apply font-Montserrat font-bold text-[14px] md:text-2xl text-[#fff]
+}
+
+.scheduleMain{
+    @apply container absolute bottom-0 left-0 lg:left-[50%] lg:translate-x-[-50%]
+}
+
+.scheduleMainBG{
+    @apply w-[306px] md:w-[669px] lg:w-full h-[250px] md:h-[260px] lg:h-[160px] bg-[rgba(196,196,196,0.05)] absolute bottom-0 md:bottom-[10px] lg:bottom-[2px] left-[34px] md:left-[50px] lg:left-0 rounded-t-[20px]
+}
+
+.scheduleList{
+    @apply w-[305px] md:w-[668px] lg:w-full flex flex-wrap gap-[10px] md:gap-[50px] justify-between bg-[rgba(196,196,196,0.05)] p-[10px] pt-5 md:p-10 bottom-0 absolute rounded-t-[20px]
+}
+
+.scheduleList button{
+    @apply px-12 md:px-[89px] lg:px-[25px] py-[17px] md:py-5 bg-brandColor rounded-[20px] font-Montserrat font-bold text-[14px] md:text-xl lg:text-2xl text-[#fff] lg:ml-[69px]
+}
+
+/* ================== Schedule Part end ================== */
+

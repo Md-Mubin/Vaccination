@@ -1,0 +1,59 @@
+/* =============== Symptomps Css Part Start =============== */
+
+.symptompsSection{
+    @apply w-full  pt-[25px] md:pt-10 lg:pt-[67px] pb-[39px] md:pb-[81px] lg:pb-[46px] relative
+}
+
+/* Symptomps background image */
+.symptompsBG{
+    @apply absolute w-full h-full top-0 left-0 z-[-10]
+}
+
+/* Symptomps banner image */
+.symptopmsImage{
+    @apply absolute bottom-0 left-[50%] translate-x-[-50%] z-[-10] w-[223px] md:w-[458px] lg:w-[708px]
+}
+
+/* head */
+.symptompsHead{
+    @apply w-full text-center
+}
+
+.symptompsHead h4{
+    @apply font-Montserrat font-bold text-xs md:text-xl lg:text-2xl text-[#fff]
+}
+
+.symptompsHead h1{
+    @apply my-[10px] lg:mt-5 md:mb-10 font-Montserrat font-extrabold text-2xl md:text-4xl lg:text-5xl text-brandColor leading-normal
+}
+
+.symptompsHead h1 span{
+    @apply text-[#fff]
+}
+
+.symptompsHead p{
+    @apply w-[296px] md:w-[553px] lg:w-[952px] font-Montserrat font-medium text-xs md:text-lg lg:text-2xl text-[rgba(255,255,255,0.50)] m-auto
+}
+
+/* Symptomps names */
+.symptompsName{
+    @apply flex flex-col gap-[13px] md:gap-[26px] lg:gap-[82px] mt-[38px] md:mt-[76px] lg:mt-[198px]
+}
+
+.symptompsName li{
+    @apply m-auto flex font-Montserrat font-semibold text-[8px] md:text-lg lg:text-xl text-brandColor
+}
+
+.symptomps1{
+    @apply gap-[60px] md:gap-[150px] lg:gap-[434px] 
+}
+
+.symptomps2{
+    @apply gap-[121px] md:gap-[248px] lg:gap-[625px]
+}
+
+.symptomps3{
+    @apply gap-[141px] md:gap-[289px] lg:gap-[837px]
+}
+
+/* =============== Symptomps Css Part End =============== */

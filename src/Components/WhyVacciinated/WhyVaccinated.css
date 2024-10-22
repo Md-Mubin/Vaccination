@@ -1,0 +1,84 @@
+/* =============== Vaccinated Css Part Start =============== */
+
+.whyVaccinatedSection{
+   @apply w-full py-[42px] md:pt-[58px] md:pb-[45px] lg:h-[794px] relative 
+} 
+
+/* why vaccinated section background image */
+.whyVaccinatedSection img{
+    @apply w-full h-full absolute top-0 z-[-10]
+}
+
+/* head */
+.vaccinatedHead{
+    @apply flex flex-col gap-[17px] md:gap-20 lg:gap-0 lg:flex-row lg:justify-between
+}
+
+.vaccinatedHead h1{
+@apply w-[265px] md:w-[504px] font-Montserrat font-bold text-2xl md:text-4xl lg:text-5xl text-[#fff] leading-normal
+}
+
+.vaccinatedHead p{
+    @apply w-[300px] md:w-[537px] font-Montserrat font-normal text-[14px] md:text-xl text-[rgba(255,255,255,0.50)] leading-normal
+}
+
+/* vaccinated carts */
+.vaccinatedCarts{
+    @apply mt-10 md:mt-[50px] lg:mt-10 flex flex-wrap lg:flex-nowrap gap-10 lg:gap-[74px] justify-start md:justify-center items-end
+}
+
+/* big cart */
+.cartBig{
+    @apply pt-5 md:pt-10 pb-[30px] md:pb-[74px] pl-5 md:pl-10 pr-5 md:pr-[56px] rounded-[20px] md:rounded-[50px] rounded-tr-[80px] md:rounded-tr-[170px] border-[3px] border-[rgba(255,255,255,0.50)] duration-200
+}
+
+.cartBig:hover{
+    @apply bg-[rgba(196,196,196,0.20)] border-transparent
+}
+
+.cartBig li .cartBigIcon{
+    @apply p-[10px] md:p-[15px] bg-[rgba(196,196,196,0.10)] rounded-[10px] text-[49px] md:text-[70px] text-brandColor shadow-[0px_2px_3px_#000]
+}
+
+.cartBig h3{
+    @apply w-[172px] md:w-[288px] mt-5 md:mt-10 font-Montserrat font-bold text-[14px] md:text-2xl text-brandColor
+}
+
+.cartBig p{
+    @apply w-[235px] md:w-[352px] mt-5 md:mt-[30px] mb-10 font-Montserrat font-medium text-xs md:text-lg text-[#fff]
+}
+
+.cartBig a{
+    @apply mt-[25px] md:mt-10 font-Montserrat font-bold text-[rgba(255,255,255,0.50)] text-xs md:text-lg
+}
+
+.cartBig:hover a{
+    @apply text-brandColor
+}
+
+/* small carts */
+.cartSmall{
+    @apply w-[188px] md:w-[296px] lg:w-[350px] h-[202px] md:h-[290px] lg:h-[350px] p-[20px_12px_23px_20px] md:p-[40px_40px_32px_40px] lg:p-[40px_53px_59px_40px] border-[3px] rounded-[20px] md:rounded-[50px] duration-200 flex flex-col justify-between
+}
+
+.cartSmall:hover{
+    @apply bg-[rgba(196,196,196,0.20)] border-transparent
+}
+
+.cartSmallIcon{
+    @apply p-[10px] bg-[rgba(196,196,196,0.10)] rounded-[21px] text-[49px] text-[#fff] shadow-[0px_2px_3px_#000]
+}
+
+.cartSmall h4{
+    @apply font-Montserrat font-bold text-[14px] md:text-xl lg:text-2xl text-[#fff]
+}
+
+.cartSmall a{
+    @apply font-Montserrat font-bold text-[14px] md:text-lg text-[rgba(255,255,255,0.50)]
+}
+
+.cartSmall:hover a{
+    @apply text-brandColor
+}
+
+/* =============== Vaccinated Css Part End =============== */

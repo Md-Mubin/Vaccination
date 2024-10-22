@@ -1,0 +1,108 @@
+/* =============== Register Css Part Start =============== */
+
+.registerSection{
+    @apply pt-[35px] md:pt-10 pb-[41px] md:pb-[49px] lg:pb-[33px] bg-[rgba(255,255,255,0.50)] relative
+}
+
+/* register background */
+.registerBackground{
+    @apply absolute w-full h-full z-[-10]
+}
+
+.registerRow{
+    @apply flex items-center justify-between
+}
+
+/* register heading */
+.registerPart h1{
+    @apply w-[230px] md:w-[586px] lg:w-[450px] font-Montserrat font-bold text-[#000] text-2xl md:text-4xl lg:text-5xl leading-normal
+}
+
+.patientName{
+    @apply w-[305px] md:w-full lg:w-[650px] bg-[rgba(11,21,60,0.15)] rounded-[10px] md:rounded-[20px] py-4 md:py-[23px] lg:py-5 pl-5 md:pl-[30px] font-Montserrat font-medium text-[rgba(0,0,0,0.25)] md:text-xl lg:text-2xl outline-none
+}
+
+/* register form */
+.registerForm{
+    @apply mt-[496px] md:mt-[685px] lg:mt-0 relative
+}
+
+/* name Error */
+.nameError{
+    @apply absolute top-5 left-24 md:top-[30px] md:right-4 font-Montserrat font-semibold text-red-600
+}
+
+/* number Error */
+.numberError{
+    @apply absolute bottom-[245px] left-24 md:bottom-[180px] md:left-40 font-Montserrat font-semibold text-red-600
+}
+
+.registerForm h4{
+    @apply font-Montserrat font-bold text-[#000] md:text-xl text-[14px] lg:text-2xl mb-5 mt-10
+}
+
+.registerForm p{
+    @apply w-[321px] md:w-[652px] font-Montserrat font-medium text-[14px] md:text-xl text-[rgba(0,0,0,0.50)]
+}
+
+.phoneNumberVerify{
+    @apply w-full flex flex-col items-start md:flex-row md:items-center gap-5 md:gap-9 mt-5 mb-10
+}
+
+/* for add text style in phone input package */
+.form-control{
+    @apply font-Montserrat font-medium text-2xl text-[rgba(0,0,0,0.25)] 
+}
+
+/* verify button for phone number */
+.phoneNumberVerify button {
+    @apply py-[17px] md:py-[23px] lg:py-5 px-[53px] md:px-[70px] bg-brandColor rounded-[20px] font-Montserrat font-bold md:text-xl lg:text-2xl text-[#fff]
+}
+
+.phoneNumberVerify button:hover{
+    @apply bg-[#32d1f8]
+}
+
+/* submit button */
+.submitButton{
+    @apply w-[305px] md:w-full py-[17px] md:py-5 px-[126px] md:px-[279px] bg-brandColor rounded-[20px] font-Montserrat font-bold md:text-xl lg:text-2xl text-[#fff] duration-200
+}
+
+.submitButton:hover{
+@apply bg-[#32d1f8]
+}
+
+.statusLink{
+    @apply mt-10 flex md:justify-center gap-5 md:gap-[46px]
+}
+
+.statusLink p{
+    @apply font-Montserrat font-semibold text-[14px] md:text-xl text-[rgba(0,0,0,0.50)]
+}
+
+.statusLink a{
+    @apply font-Montserrat font-bold text-[14px] md:text-xl text-brandColor duration-200
+}
+
+.statusLink a:hover{
+    @apply text-[rgba(0,0,0,0.50)]
+}
+
+/* register banner image */
+.registerBannerImage{
+    @apply lg:relative lg:flex justify-end lg:top-0 absolute top-[132px] md:top-[193px] w-[289px] md:w-[377px]
+}
+
+.registerIamageChild{
+    @apply absolute top-[-25px] left-[-25px] md:animate-bounce
+}
+
+.registerBannerImage a{
+    @apply left-[45px] md:left-[90px] bottom-[60px] absolute py-[13px] px-[33px] bg-[rgba(196,196,196,0.25)] rounded-[10px] font-Montserrat font-bold text-brandColor text-xl duration-200
+}
+
+.registerBannerImage a:hover{
+    @apply bg-brandColor text-[#fff] 
+}
+
+/* =============== Register Css Part End =============== */
