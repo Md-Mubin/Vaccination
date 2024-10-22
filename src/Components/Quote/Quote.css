@@ -23,6 +23,11 @@
     @apply w-full rounded-[30px] py-[15px] md:py-[29px] pl-[30px] outline-none font-Montserrat font-medium text-[10px] md:text-xl
 }
 
+
+.emailError{
+    @apply absolute top-[-15px] md:top-[-25px] right-14 md:right-28 font-Montserrat font-semibold text-[8px] md:text-lg text-[#ff1a1a]
+}
+
 /* input button */
 .quoteSection .inputArea button{
     @apply absolute px-3 md:px-[30px] h-full top-0 right-0 text-2xl md:text-[40px] text-[#fff] bg-[#0B153C] rounded-r-[30px] duration-200

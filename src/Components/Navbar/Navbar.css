@@ -19,7 +19,11 @@
 }
 
 .navItems li a {
-    @apply font-Montserrat font-medium text-2xl text-[rgba(255,255,255,0.50)] 
+    @apply font-Montserrat font-medium text-2xl text-[rgba(255,255,255,0.50)] duration-200
+}
+
+.navItems li a:hover{
+    @apply text-[#fff]
 }
 
 /* Nav Button */

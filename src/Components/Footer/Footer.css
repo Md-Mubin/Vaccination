@@ -22,6 +22,10 @@ footer{
     @apply font-Montserrat font-medium md:text-xl lg:text-2xl text-[rgba(255,255,255,0.50)] 
 }
 
+.footerItems li a:hover{
+    @apply text-[#fff]
+}
+
 /* footer social icons */
 .socialIcons{
     @apply flex gap-[10px]

@@ -190,7 +190,11 @@
 }
 
 .scheduleList button{
-    @apply px-12 md:px-[89px] lg:px-[25px] py-[17px] md:py-5 bg-brandColor rounded-[20px] font-Montserrat font-bold text-[14px] md:text-xl lg:text-2xl text-[#fff] lg:ml-[69px]
+    @apply px-12 md:px-[89px] lg:px-[25px] py-[17px] md:py-5 bg-brandColor rounded-[20px] font-Montserrat font-bold text-[14px] md:text-xl lg:text-2xl text-[#fff] lg:ml-[69px] duration-200
+}
+
+.scheduleList button:hover{
+    @apply bg-transparent ring 
 }
 
 /* ================== Schedule Part end ================== */

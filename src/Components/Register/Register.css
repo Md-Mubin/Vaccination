@@ -29,7 +29,7 @@
 
 /* name Error */
 .nameError{
-    @apply absolute top-5 left-24 md:top-[30px] md:right-4 font-Montserrat font-semibold text-red-600
+    @apply absolute top-5 lg:top-7 left-24 md:top-[28px] md:left-[400px] font-Montserrat font-semibold text-red-600
 }
 
 /* number Error */

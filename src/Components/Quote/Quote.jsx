@@ -1,9 +1,25 @@
 // ================= All Documentation
-import                              './Quote.css'
-import React                   from 'react'
+import './Quote.css'
+import React, { useState } from 'react'
 import { IoPaperPlaneOutline } from 'react-icons/io5'
 
 const Quote = () => {
+
+    const [email, setEmail] = useState("")
+    const [emailError, setEmailError] = useState("")
+
+    const handleEmail = (e) => {
+        setEmail(e.target.value)
+        setEmailError('')
+    }
+
+    const handleError = () => {
+        if (!email) {
+            setEmailError('Please Enter Your Email')
+        }
+    }
+
+
     return (
         <>
             {/* ============= Quote Section Part Start ============= */}
@@ -20,13 +36,15 @@ const Quote = () => {
                 <div className="inputArea">
 
                     {/* main input */}
-                    <input type="email" placeholder='lenux.ng@gmail.com' />
+                    <input onChange={handleEmail} type="email" placeholder='lenux.ng@gmail.com' />
+
+                    <div className='emailError'>{emailError}</div>
 
                     {/* button to send */}
-                    <button><IoPaperPlaneOutline/></button>
+                    <button onClick={handleError}><IoPaperPlaneOutline /></button>
                 </div>
             </section>
-    
+
             {/* ============= Quote Section Part End ============= */}
         </>
     )
