@@ -105,11 +105,11 @@
     @apply absolute top-[-25px] left-[-25px] md:animate-bounce
 }
 
-.registerBannerImage a{
+.mubin-registerBannerImage a{
     @apply left-[45px] md:left-[90px] bottom-[60px] absolute py-[13px] px-[33px] bg-[rgba(196,196,196,0.25)] rounded-[10px] font-Montserrat font-bold text-brandColor text-xl duration-200
 }
 
-.registerBannerImage a:hover{
+.mubin-registerBannerImage a:hover{
     @apply bg-brandColor text-[#fff] 
 }
 
