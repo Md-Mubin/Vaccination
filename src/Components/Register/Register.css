@@ -63,6 +63,10 @@
     @apply bg-[#32d1f8]
 }
 
+.phone{
+    @apply w-full
+}
+
 /* submit button */
 .submitButton{
     @apply w-[305px] md:w-full py-[17px] md:py-5 px-[126px] md:px-[279px] bg-brandColor rounded-[20px] font-Montserrat font-bold md:text-xl lg:text-2xl text-[#fff] duration-200

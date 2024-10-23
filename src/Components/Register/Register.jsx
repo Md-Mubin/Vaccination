@@ -74,8 +74,13 @@ const Register = () => {
 
                                     {/* phone input part from npm package */}
                                     <div className="phone">
+
                                         <PhoneInput 
+
+                                        // handleNumber function run
                                         onChange={handleNumber}
+
+                                        // for call country
                                         country={"us"} 
 
                                         // for special label remove
@@ -84,25 +89,31 @@ const Register = () => {
                                         // for styling button
                                         buttonStyle=
                                         {
-                                            {borderRadius: '20px', 
-                                            border: 'none',
-                                            paddingLeft: '30px'}
+                                            {
+                                                borderRadius: '20px', 
+                                                border: 'none',
+                                                paddingLeft: '30px'
+                                            }
                                         } 
                                         
                                         // for styling input bar
                                         inputStyle=
                                         {
-                                            {width: '400px', 
-                                            height: '70px', 
-                                            borderRadius: '20px', 
-                                            backgroundColor: 'rgba(11,21,60,0.15)', 
-                                            paddingLeft: '100px', 
-                                            outline: 'none', 
-                                            border: 'none'}
+                                            {
+                                                width: '100%', 
+                                                height: '70px', 
+                                                borderRadius: '20px', 
+                                                backgroundColor: 'rgba(11,21,60,0.15)', 
+                                                paddingLeft: '100px', 
+                                                outline: 'none', 
+                                                border: 'none'
+                                            }
                                         } 
                                         
-                                        // for type and placeholder
-                                        type="number" 
+                                        // for type 
+                                        type="number"
+                                        
+                                        // for placeholder
                                         placeholder='Phone Number'/>
                                     </div>
 
@@ -113,6 +124,7 @@ const Register = () => {
                                     <button>Verfiy</button>
                                 </div>
 
+                                {/* submit button */}
                                 <button className='submitButton'>Submit</button>
                             </form>
 
