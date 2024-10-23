@@ -14,7 +14,7 @@
 }
 
 /* button for responsive nav */
-.resNavRow button{
+.mubin-resNavRow button{
     @apply text-[30px] md:text-4xl text-[#fff] rotate-[-90deg] p-2 bg-[rgba(196,196,196,0.15)] rounded-[10px] shadow-[-2px_0px_2px_#000] duration-150
 }
 
@@ -46,7 +46,7 @@
 }
 
 /* for close the responsive nav bar */
-.resNavItems button{
+.resNavItems .resNavItemsButton{
     @apply ml-[70%] md:ml-[85%] bg-brandColor rounded-sm duration-200 flex items-center gap-2 font-Montserrat font-medium text-lg
 }
 
