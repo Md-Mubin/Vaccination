@@ -1,6 +1,6 @@
 /* =============== Feed Back Css Part Start =============== */
 
-.feedbackSection{
+.mubin-feedbackSection{
     @apply w-full h-full pt-[30px] md:pt-[46px] lg:pt-[57px] pb-11 md:pb-[68px] lg:pb-[321px] mb-[114px] md:mb-[104px] lg:mb-0
 }
 
@@ -20,24 +20,24 @@
 }
 
 /* feed back heading */
-.feedbackHead{
+.mubin-feedbackHead{
     @apply text-center relative
 }
 
-.feedbackHead h6{
+.mubin-feedbackHead h6{
     @apply font-Montserrat font-bold text-[14px] md:text-xl lg:text-2xl text-brandColor
 }
 
-.feedbackHead h1{
+.mubin-feedbackHead h1{
     @apply mt-5 mb-[10px] md:mb-10 font-Montserrat font-extrabold text-2xl md:text-4xl lg:text-5xl text-[#000]
 }
 
-.feedbackHead p{
+.mubin-feedbackHead p{
     @apply w-[248px] md:w-[580px] lg:w-[952px] font-Montserrat font-medium text-xs md:text-lg lg:text-2xl text-[rgba(0,0,0,0.50)] m-auto
 }
 
 /* feed pack cart reviewers */
-.patientCarts{
+.mubin-patientCarts{
     @apply mt-4 md:mt-[60px] lg:mt-[100px] flex flex-col lg:flex-row lg:justify-between md:items-center gap-[30px] lg:gap-0
 }
 

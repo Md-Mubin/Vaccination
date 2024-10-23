@@ -9,10 +9,10 @@ const Navbar = () => {
     <>
       {/* ====================== Navbar Part Start ====================== */}
 
-      <nav className='navBar'>
+      <nav className='mubin-navBar'>
 
         <div className="container">
-          <div className="navRow">
+          <div className="mubin-navRow">
 
             {/* -------- Navbar Logo -------- */}
             <img src="images/logo.png" alt="logo_image" className='logo' />

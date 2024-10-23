@@ -1,9 +1,9 @@
 // ================= All Documentation
-import                  './Register.css'
-import React, { useState }       from 'react'
-import { Link }    from 'react-router-dom'
-import PhoneInput  from 'react-phone-input-2'
-import                  'react-phone-input-2/lib/material.css'
+import                          './Register.css'
+import { Link }            from 'react-router-dom'
+import React, { useState } from 'react'
+import PhoneInput          from 'react-phone-input-2'
+import                          'react-phone-input-2/lib/material.css'
 
 const Register = () => {
 
@@ -44,13 +44,13 @@ const Register = () => {
         <>
             {/* ============= Register Section Part Start ============= */}
 
-            <section className='registerSection'>
+            <section className='mubin-registerSection'>
 
                 {/* --------  Register Background Image -------- */}
                 <img src="images/registerBackground.png" alt="register_background_images" className='registerBackground'/>
 
                 <div className="container">
-                    <div className="registerRow">
+                    <div className="mubin-registerRow">
 
                         {/* register part */}
                         <ul className='registerPart'>
@@ -134,7 +134,7 @@ const Register = () => {
                         </ul>
 
                         {/* regsiter section banner image */}
-                        <ul className='registerBannerImage'>
+                        <ul className='mubin-registerBannerImage'>
                             <img src="images/register.png" alt="register_bannerImage"/>
                             <img src="images/registerChild.png" alt="register_child_image" className='registerIamageChild'/>
                             <Link to={"#"}>Verify Status</Link>

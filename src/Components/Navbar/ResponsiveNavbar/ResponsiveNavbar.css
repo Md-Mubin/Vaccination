@@ -1,10 +1,10 @@
 /* =============== Navbar Responsive Css Part Start =============== */
 
-.resNav{
+.mubin-resNav{
     @apply block lg:hidden relative
 }
 
-.resNavRow{
+.mubin-resNavRow{
     @apply flex justify-between items-center
 }
 

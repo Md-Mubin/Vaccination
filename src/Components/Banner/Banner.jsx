@@ -12,18 +12,18 @@ const Banner = () => {
         <>
             {/* ============= Banner Part Start ============= */}
 
-            <section className='banner'>
+            <section className='mubin-banner'>
 
                 {/* ------- banner background image -------*/}
-                <img src="images/banner_bg.png" alt="banner_image" className='bannerBG' />
+                <img src="images/banner_bg.png" alt="banner_image" className='mubin-bannerBG' />
 
                 <div className="container">
 
                     {/* ------- banner row ------- */}
-                    <ul className='bannerRow'>
+                    <ul className='mubin-bannerRow'>
 
                         {/* ------- banner heading part ------- */}
-                        <ul className='bannerInfo'>
+                        <ul className='mubin-bannerInfo'>
                             <h2>Get Vaccinated. Boost your Immune System</h2>
 
                             {/* banner main heading part */}
@@ -62,7 +62,7 @@ const Banner = () => {
                     </ul>
 
                     {/* ------- schedule infos part ------- */}
-                    <ul className='scheduleMain'>
+                    <ul className='mubin-scheduleMain'>
                         <div className='scheduleMainBG'></div>
 
                         {/* schedule lists */}

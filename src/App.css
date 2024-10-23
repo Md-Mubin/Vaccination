@@ -1,3 +1,5 @@
+/* ============ for scrollbar to dissapear ============ */
+
 ::-webkit-scrollbar{
     width: 0;
 }

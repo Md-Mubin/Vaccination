@@ -8,7 +8,7 @@ const Symptomps = () => {
     <>
       {/* ============= Register Section Part Start ============= */}
 
-      <section className='symptompsSection'>
+      <section className='mubin-symptompsSection'>
 
         {/* symptomps background image */}
         <img src="images/banner_bg.png" alt="background_image" className='symptompsBG' />
@@ -19,7 +19,7 @@ const Symptomps = () => {
         <div className="container">
 
           {/* symptomps head */}
-          <ul className="symptompsHead">
+          <ul className="mubin-symptompsHead">
             <h4>Covid-19 Prevention</h4>
             <h1>COVID-19 <span>Symptoms</span></h1>
             <p>Adipiscing nec etiam tortor elit quisque. Arcu aliquet convallis aenean eu velit. Mi vestibulum, ullamcorper venenatis imperdiet augue arcu donec neque.</p>

@@ -19,10 +19,10 @@ const ResponsiveNavbar = () => {
         <>
             {/* ============= Responsive Navbar Part Start ============= */}
           
-            <nav className='resNav'>
+            <nav className='mubin-resNav'>
 
                 {/* ------- Responsive Navbar Logo And Toggle Button ------- */}
-                <ul className='resNavRow'>
+                <ul className='mubin-resNavRow'>
                     <img src="images/logo.png" alt="logo_image" className='resLogo' />
                     <button onClick={handleNav} ><BiBarChart/></button>
                 </ul>

@@ -6,11 +6,11 @@ const CompaniesLogo = () => {
     return (
         <>
             {/* ============= Companies Logos Part Start ============= */}
-            <section className='companiesLogo'>
+            <section className='mubin-companiesLogo'>
                 <div className="container">
 
                     {/* ------- different companies logos ------- */}
-                    <ul className='companiesLogoRow'>
+                    <ul className='mubin-companiesLogoRow'>
 
                         {/* logo-1 */}
                         <li>

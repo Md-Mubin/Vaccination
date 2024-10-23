@@ -1,15 +1,15 @@
 /* ================== Banner Common Style Part Start ================== */
 
-.banner{
+.mubin-banner{
     @apply relative w-full h-[1104px] md:h-[1547px] lg:h-[1024px] 
 }
 
 /* banner background */
-.bannerBG{
+.mubin-bannerBG{
     @apply w-full h-full absolute
 }
 
-.bannerRow{
+.mubin-bannerRow{
     @apply relative top-0 pt-[127px] md:pt-[126px] lg:pt-[211px] flex flex-col gap-[55px] lg:gap-0 lg:flex-row justify-between 
 }
 
@@ -17,19 +17,19 @@
 
 /* ================== Banner info Part Start ================== */
 
-.bannerInfo h2{
+.mubin-bannerInfo h2{
     @apply font-Montserrat font-bold text-[12px] md:text-lg lg:text-2xl text-brandColor 
 }
 
-.bannerInfo h1{
+.mubin-bannerInfo h1{
     @apply w-[278px] md:w-[414px] lg:w-[551px] font-Montserrat font-extrabold text-2xl md:text-4xl lg:text-5xl text-[#fff] my-5 md:my-10 lg:mt-10 lg:mb-[50px]
 }
 
-.bannerInfo h1 span{
+.mubin-bannerInfo h1 span{
     @apply text-brandColor block
 }
 
-.bannerInfo p{
+.mubin-bannerInfo p{
     @apply w-[271px] md:w-[502px] lg:w-[610px] lg:font-Montserrat font-bold text-[14px] md:text-xl lg:text-2xl text-[rgba(255,255,255,0.70)] leading-normal
 }
 
@@ -37,7 +37,7 @@
     @apply flex gap-5 mt-5 lg:mt-[50px]
 }
 
-.bannerInfo .buttons button {
+.mubin-bannerInfo .buttons button {
     @apply py-[16.5px] md:py-5 px-[25px] bg-[rgba(196,196,196,0.)] border-2 rounded-[20px] font-Montserrat font-bold text-sm md:text-xl lg:text-2xl text-[#fff] duration-300
 }
 
@@ -177,7 +177,7 @@
     @apply font-Montserrat font-bold text-[14px] md:text-2xl text-[#fff]
 }
 
-.scheduleMain{
+.mubin-scheduleMain{
     @apply container absolute bottom-0 left-0 lg:left-[50%] lg:translate-x-[-50%]
 }
 

@@ -1,6 +1,6 @@
 /* =============== Register Css Part Start =============== */
 
-.registerSection{
+.mubin-registerSection{
     @apply pt-[35px] md:pt-10 pb-[41px] md:pb-[49px] lg:pb-[33px] bg-[rgba(255,255,255,0.50)] relative
 }
 
@@ -9,7 +9,7 @@
     @apply absolute w-full h-full z-[-10]
 }
 
-.registerRow{
+.mubin-registerRow{
     @apply flex items-center justify-between
 }
 
@@ -97,7 +97,7 @@
 }
 
 /* register banner image */
-.registerBannerImage{
+.mubin-registerBannerImage{
     @apply lg:relative lg:flex justify-end lg:top-0 absolute top-[132px] md:top-[193px] w-[289px] md:w-[377px]
 }
 

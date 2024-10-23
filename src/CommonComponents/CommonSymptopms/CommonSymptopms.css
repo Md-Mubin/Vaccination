@@ -8,7 +8,7 @@ h5:hover{
     @apply scale-110 will-change-transform
 }
 
-.virusImage{
+.mubin-virusImage{
     @apply w-[32px] md:w-[65px] lg:w-[100px] absolute left-[-25px] md:left-[-45px] lg:left-[-50px] top-[-5px] md:top-[-5px] lg:top-[-10px]
 }
 

@@ -11,17 +11,17 @@ const WhyVaccinated = () => {
         <>
             {/* ============= Register Section Part Start ============= */}
 
-            <section className='whyVaccinatedSection'>
+            <section className='mubin-whyVaccinatedSection'>
 
                 {/* --------- register background image --------- */}
                 <img src="images/banner_bg.png" alt="background_image" />
 
                 <div className="container">
 
-                    <div className="whyVaccinatedRow">
+                    <div className="mubin-whyVaccinatedRow">
 
                         {/* vaccinated part for register */}
-                        <div className='vaccinatedHead'>
+                        <div className='mubin-vaccinatedHead'>
                             <h1>Why get vaccinated today?</h1>
                             <p>Magna adipiscing at elit at ornare lectus nibh lorem. Ac, sed ac lorem pellentesque vestibulum risus matti. In molestie condimentum malesuada non.</p>
                         </div>

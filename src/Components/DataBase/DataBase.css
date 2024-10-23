@@ -1,15 +1,15 @@
 /* =============== Data Base Css Part Start =============== */
 
-.dataBase{
+.mubin-dataBase{
     @apply w-full h-[497px] md:h-[596px] lg:h-[466px] relative py-[63px] 
 }
 
 /* data base background image css */
-.dataBase img{
+.mubin-dataBase img{
     @apply w-full h-full absolute top-0 z-[-10]
 }
 
-.dataBaseArea{
+.mubin-dataBaseArea{
     @apply pt-[61px] md:pt-[95px] lg:pt-[135px] pb-[31px] pl-[13px] md:pl-0 relative  bg-[rgba(196,196,196,0.10)] rounded-[20px]
 }
 

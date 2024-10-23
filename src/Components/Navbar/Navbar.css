@@ -1,10 +1,10 @@
 /* =============== Navbar Css Part Start =============== */
 
-.navBar{
+.mubin-navBar{
     @apply absolute w-full mt-[41px] z-50 
 }
 
-.navRow{
+.mubin-navRow{
     @apply  justify-between items-center hidden lg:flex
 }
 

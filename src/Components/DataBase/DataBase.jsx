@@ -7,13 +7,13 @@ const DataBase = () => {
     <>
       {/* ============= Data Base Part Start ============= */}
 
-      <section className='dataBase'>
+      <section className='mubin-dataBase'>
 
         {/* ----------- database section background image ----------- */}
         <img src="images/dataBase_bg.png" alt="database_background_image" />
 
         <div className="container">
-          <ul className="dataBaseArea">
+          <ul className="mubin-dataBaseArea">
 
             {/* ---- data base area ---- */}
             <li className='dataBaseHead'>Check your COVID-19 result on our Database</li>

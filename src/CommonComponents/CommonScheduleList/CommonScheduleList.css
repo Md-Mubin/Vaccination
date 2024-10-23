@@ -1,18 +1,18 @@
 /* =============== Common Schedule Cart Css Part Start =============== */
 
-.schedules{
+.mubin-schedules{
     @apply flex gap-[10px] md:gap-5 items-center
 }
 
-.scheduleIcon{
+.mubin-scheduleIcon{
     @apply p-[5px] lg:p-[10px] rounded-[10px] bg-[rgba(196,196,196,0.10)] text-brandColor text-xl lg:text-[30px]
 }
 
-.scheduleItems h6{
+.mubin-scheduleItems h6{
     @apply font-Montserrat font-semibold text-[14px] md:text-xl lg:text-2xl text-[rgba(255,255,255,0.50)]
 }
 
-.scheduleItems p{
+.mubin-scheduleItems p{
     @apply font-Montserrat font-bold text-[14px] md:text-xl lg:text-2xl text-[#fff] md:mt-[5px] lg:mt-0
 }
 

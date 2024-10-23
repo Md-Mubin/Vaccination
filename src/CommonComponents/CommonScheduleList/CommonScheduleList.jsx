@@ -7,13 +7,13 @@ const CommonScheduleList = ({scheduleIcons , scheduleName, scheduleNameInfo}) =>
     <>
       {/* ========== Common Schedules Part Start  ========== */}
 
-      <ul className='schedules'>
+      <ul className='mubin-schedules'>
 
         {/* scheduled icon */}
-        <li className='scheduleIcon'>{scheduleIcons}</li>
+        <li className='mubin-scheduleIcon'>{scheduleIcons}</li>
 
         {/* schedules icon */}
-        <li className='scheduleItems'>
+        <li className='mubin-scheduleItems'>
           
           {/* name */}
           <h6>{scheduleName}</h6>

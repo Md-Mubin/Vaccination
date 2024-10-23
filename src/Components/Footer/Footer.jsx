@@ -19,13 +19,13 @@ const Footer = () => {
         <div className="container">
 
           {/* fooetr main part */}
-          <div className="footerRow">
+          <div className="mubin-footerRow">
 
             {/* footer logo */}
             <img src="images/logo.png" alt="footer_logo" />
 
             {/* footer all items */}
-            <ul className='footerItems'>
+            <ul className='mubin-footerItems'>
               <li><Link to={"#"}>Home</Link></li>
               <li><Link to={"#"}>Services</Link></li>
               <li><Link to={"#"}>Schedule</Link></li>
@@ -33,7 +33,7 @@ const Footer = () => {
             </ul>
 
             {/* all socials links in footer */}
-            <ul className='socialIcons'>
+            <ul className='mubin-socialIcons'>
               <li><Link to={"#"}><FaYoutube /></Link></li>
               <li><Link to={"#"}><FaInstagram /></Link></li>
               <li><Link to={"#"}><FiTwitter /></Link></li>

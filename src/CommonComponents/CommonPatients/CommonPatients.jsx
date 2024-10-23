@@ -1,5 +1,5 @@
 // ================= All Documentation
-import './CommonPatients.css'
+import            './CommonPatients.css'
 import React from 'react'
 
 const CommonPatients = ({patientImage, patientName, patientPlace, patientViews}) => {
@@ -7,10 +7,10 @@ const CommonPatients = ({patientImage, patientName, patientPlace, patientViews})
         <>
             {/* ========== Common Patients Carts For Their Reviews ========== */}
 
-            <ul className='patientCart'>
+            <ul className='mubin-patientCart'>
 
                 {/* cart head */}
-                <li className='cartHead'>
+                <li className='mubin-cartHead'>
 
                     {/* patients images */}
                     <img src={patientImage} alt="patient_image" />
@@ -23,7 +23,7 @@ const CommonPatients = ({patientImage, patientName, patientPlace, patientViews})
                 </li>
 
                 {/* reviews */}
-                <li className='patientsReview'>
+                <li className='mubin-patientsReview'>
                     {patientViews}
                 </li>
             </ul>

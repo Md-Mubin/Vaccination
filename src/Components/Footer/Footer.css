@@ -9,33 +9,33 @@ footer{
     @apply absolute w-full h-full z-[-10]
 }
 
-.footerRow{
+.mubin-footerRow{
     @apply pt-[133px] md:pt-[270px] lg:pt-[327px] pb-[30px] md:pb-[51px] lg:pb-[123px] flex flex-col lg:flex-row items-start lg:justify-between lg:items-center gap-5 md:gap-10 lg:gap-0
 }
 
 /* footer items */
-.footerItems{
+.mubin-footerItems{
     @apply flex flex-col md:flex-row gap-[10px] md:gap-[25px]
 }
 
-.footerItems li a {
+.mubin-footerItems li a {
     @apply font-Montserrat font-medium md:text-xl lg:text-2xl text-[rgba(255,255,255,0.50)] 
 }
 
-.footerItems li a:hover{
+.mubin-footerItems li a:hover{
     @apply text-[#fff]
 }
 
 /* footer social icons */
-.socialIcons{
+.mubin-socialIcons{
     @apply flex gap-[10px]
 }
 
-.socialIcons li a{
+.mubin-socialIcons li a{
     @apply md:text-[31px] lg:text-[50px] text-[#fff] duration-200
 }
 
-.socialIcons li a:hover{
+.mubin-socialIcons li a:hover{
     @apply text-brandColor
 }
 
