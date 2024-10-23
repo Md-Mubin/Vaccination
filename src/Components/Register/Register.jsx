@@ -92,7 +92,7 @@ const Register = () => {
                                         // for styling input bar
                                         inputStyle=
                                         {
-                                            {width: '400px', 
+                                            {width: '100%', 
                                             height: '70px', 
                                             borderRadius: '20px', 
                                             backgroundColor: 'rgba(11,21,60,0.15)', 
