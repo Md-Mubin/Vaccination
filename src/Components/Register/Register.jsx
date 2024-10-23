@@ -99,15 +99,13 @@ const Register = () => {
                                         // for styling input bar
                                         inputStyle=
                                         {
-                                            {
-                                                width: '100%', 
-                                                height: '70px', 
-                                                borderRadius: '20px', 
-                                                backgroundColor: 'rgba(11,21,60,0.15)', 
-                                                paddingLeft: '100px', 
-                                                outline: 'none', 
-                                                border: 'none'
-                                            }
+                                            {width: '400px', 
+                                            height: '70px', 
+                                            borderRadius: '20px', 
+                                            backgroundColor: 'rgba(11,21,60,0.15)', 
+                                            paddingLeft: '100px', 
+                                            outline: 'none', 
+                                            border: 'none'}
                                         } 
                                         
                                         // for type 

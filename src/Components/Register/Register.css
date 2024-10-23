@@ -49,6 +49,10 @@
     @apply w-full flex flex-col items-start md:flex-row md:items-center gap-5 md:gap-9 mt-5 mb-10
 }
 
+.phone{
+    @apply w-full
+}
+
 /* for add text style in phone input package */
 .form-control{
     @apply font-Montserrat font-medium text-2xl text-[rgba(0,0,0,0.25)] 
