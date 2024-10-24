@@ -1,10 +1,33 @@
 // ================= All Documentation
 import                       './Navbar.css'
-import React            from 'react'
+import React, { useEffect, useRef, useState }            from 'react'
 import { Link }         from 'react-router-dom'
 import ResponsiveNavbar from './ResponsiveNavbar/ResponsiveNavbar'
 
 const Navbar = () => {
+
+  const [line, setLine] = useState({width: 0, left: 0})
+  const navRef = useRef()
+  const firstItemRef = useRef()
+
+  useEffect(()=>{
+    const firstItem = firstItemRef.current.getBoundingClientRect()
+    const navOffset = navRef.current.getBoundingClientRect().left
+    setLine({width: firstItem.width, left: firstItem.left - navOffset})
+  },[])
+
+  const handleHover = (e)=>{
+    const target = e.target.getBoundingClientRect()
+    const navOffset = navRef.current.getBoundingClientRect().left
+    setLine({width: target.width, left: target.left - navOffset})
+  }
+
+  const handleRemoveHover = ()=>{
+    const firstItem = navRef.current.getBoundingClientRect()
+    const navOffset = navRef.current.getBoundingClientRect().left
+    setLine({width: firstItem.width, left: firstItem.left - navOffset})
+  }
+
   return (
     <>
       {/* ====================== Navbar Part Start ====================== */}
@@ -15,15 +38,17 @@ const Navbar = () => {
           <div className="mubin-navRow">
 
             {/* -------- Navbar Logo -------- */}
-            <img src="images/logo.png" alt="logo_image" className='logo' />
+            <img  src="images/logo.png" alt="logo_image" className='logo' />
 
             {/* -------- Navbar Items -------- */}
-            <ul className='navItems'>
-              <li><Link to={"#"}>Home</Link></li>
-              <li><Link to={"#"}>Services</Link></li>
-              <li><Link to={"#"}>Schedule</Link></li>
-              <li><Link to={"#"}>Contact us</Link></li>
+            <ul onMouseLeave={handleRemoveHover} className='navItems'>
+              <li ref={navRef} onMouseEnter={handleHover}><Link ref={firstItemRef}  to={"#"}>Home</Link></li>
+              <li onMouseEnter={handleHover}><Link to={"#"}>Services</Link></li>
+              <li onMouseEnter={handleHover}><Link to={"#"}>Schedule</Link></li>
+              <li onMouseEnter={handleHover}><Link to={"#"}>Contact us</Link></li>
+              <p style={line} className='line'></p>
             </ul>
+
 
             {/* -------- Navbar Button -------- */}
             <Link to={'#'} className='navButton'>Check Status</Link>

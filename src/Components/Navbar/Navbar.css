@@ -5,17 +5,17 @@
 }
 
 .mubin-navRow{
-    @apply  justify-between items-center hidden lg:flex
+    @apply  justify-between items-center hidden lg:flex 
 }
 
 /* Nav Logo Part */
 .logo{
-    @apply w-[251px]
+    @apply w-[251px] 
 }
 
 /* All Nav's Item Part */
 .navItems{
-    @apply flex gap-[25px]
+    @apply flex gap-[25px] relative
 }
 
 .navItems li a {
@@ -24,6 +24,10 @@
 
 .navItems li a:hover{
     @apply text-[#fff]
+}
+
+.line{
+    @apply h-[3px] rounded-full bg-brandColor absolute top-8 duration-300 ease-linear
 }
 
 /* Nav Button */
