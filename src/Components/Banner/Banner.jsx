@@ -15,7 +15,7 @@ const Banner = () => {
             <section className='mubin-banner'>
 
                 {/* ------- banner background image -------*/}
-                <img src="images/banner_bg.png" alt="banner_image" className='mubin-bannerBG' />
+                {/* <img src="images/banner_bg.png" alt="banner_image" className='mubin-bannerBG' /> */}
 
                 <div className="container">
 
@@ -56,22 +56,16 @@ const Banner = () => {
                     </ul>
 
                     {/* ------- schedule part ------- */}
-                    <ul className='scheduleHead'>
-                        <h5><LuClock /></h5>
-                        <p>Schedule your Vaccination</p>
-                    </ul>
+                    <ul className='scheduleHead'><LuClock className='scheduleIcon'/> Schedule your Vaccination</ul>
 
                     {/* ------- schedule infos part ------- */}
-                    <ul className='mubin-scheduleMain'>
-                        <div className='scheduleMainBG'></div>
-
                         {/* schedule lists */}
-                        <ul className='scheduleList'>
-                            <li><CommonScheduleList scheduleIcons={<FaMapMarkerAlt />}     scheduleName={"Location"}     scheduleNameInfo={"Ikeja Lagos, Nigeria"} /></li>
-                            <li><CommonScheduleList scheduleIcons={<MdOutlineDateRange />} scheduleName={"Date"}         scheduleNameInfo={"29 February, 2022"} /></li>
-                            <li><CommonScheduleList scheduleIcons={<SiAdguard />}          scheduleName={"Vaccine Type"} scheduleNameInfo={"Mordena"} /></li>
-                            <button>Submit</button>
-                        </ul>
+                    <ul className='scheduleList'>
+                        <div className='scheduleMainBG'></div>
+                        <li><CommonScheduleList scheduleIcons={<FaMapMarkerAlt />}     scheduleName={"Location"}     scheduleNameInfo={"Ikeja Lagos, Nigeria"} /></li>
+                        <li><CommonScheduleList scheduleIcons={<MdOutlineDateRange />} scheduleName={"Date"}         scheduleNameInfo={"29 February, 2022"} /></li>
+                        <li><CommonScheduleList scheduleIcons={<SiAdguard />}          scheduleName={"Vaccine Type"} scheduleNameInfo={"Mordena"} /></li>
+                        <button>Submit</button>
                     </ul>
                 </div>
             </section>
