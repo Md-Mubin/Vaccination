@@ -9,9 +9,6 @@ const DataBase = () => {
 
       <section className='mubin-dataBase'>
 
-        {/* ----------- database section background image ----------- */}
-        <img src="images/dataBase_bg.png" alt="database_background_image" />
-
         <div className="container">
           <ul className="mubin-dataBaseArea">
 

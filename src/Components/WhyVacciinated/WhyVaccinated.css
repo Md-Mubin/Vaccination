@@ -1,13 +1,8 @@
 /* =============== Vaccinated Css Part Start =============== */
 
 .mubin-whyVaccinatedSection{
-   @apply w-full py-[42px] md:pt-[58px] md:pb-[45px] lg:h-[794px] relative 
+   @apply w-full py-[42px] md:pt-[58px] md:pb-[45px] lg:h-[794px] bg-[url("images/banner_bg.png")] bg-center bg-cover bg-no-repeat
 } 
-
-/* why vaccinated section background image */
-.mubin-whyVaccinatedSection img{
-    @apply w-full h-full absolute top-0 z-[-10]
-}
 
 /* head */
 .mubin-vaccinatedHead{

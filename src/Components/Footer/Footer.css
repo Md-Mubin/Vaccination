@@ -1,12 +1,7 @@
 /* =============== Footer Css Part Start =============== */
 
 footer{
-    @apply w-full h-full relative
-}
-
-/* footer background image */
-.footerBGimage{
-    @apply absolute w-full h-full z-[-10]
+    @apply w-full h-full bg-[url("images/footer_background.png")] bg-cover bg-center bg-no-repeat
 }
 
 .mubin-footerRow{

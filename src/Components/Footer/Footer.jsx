@@ -12,10 +12,7 @@ const Footer = () => {
       {/* ============= Footer Part Start ============= */}
 
       <footer>
-
-        {/* ----- footer background image ----- */}
-        <img src="images/footer_background.png" alt="footer_backgroundImage" className='footerBGimage' />
-
+        
         <div className="container">
 
           {/* fooetr main part */}

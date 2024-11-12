@@ -13,9 +13,6 @@ const WhyVaccinated = () => {
 
             <section className='mubin-whyVaccinatedSection'>
 
-                {/* --------- register background image --------- */}
-                <img src="images/banner_bg.png" alt="background_image" />
-
                 <div className="container">
 
                     <div className="mubin-whyVaccinatedRow">

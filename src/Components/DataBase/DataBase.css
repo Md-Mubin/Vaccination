@@ -1,25 +1,20 @@
 /* =============== Data Base Css Part Start =============== */
 
 .mubin-dataBase{
-    @apply w-full h-[497px] md:h-[596px] lg:h-[466px] relative py-[63px] 
-}
-
-/* data base background image css */
-.mubin-dataBase img{
-    @apply w-full h-full absolute top-0 z-[-10]
+    @apply w-full h-[497px] md:h-[596px] lg:h-[466px] bg-[url("images/dataBase_bg.png")] bg-cover bg-center bg-no-repeat relative py-[63px] 
 }
 
 .mubin-dataBaseArea{
-    @apply pt-[61px] md:pt-[95px] lg:pt-[135px] pb-[31px] pl-[13px] md:pl-0 relative  bg-[rgba(196,196,196,0.10)] rounded-[20px]
+    @apply pb-[31px] bg-[rgba(196,196,196,0.10)] rounded-[20px]
 }
 
 .dataBaseHead{
-    @apply absolute top-0 left-0 w-full px-[31px] py-[14px] md:pt-[18px] md:pb-[13px] lg:py-9 bg-[rgba(196,196,196,0.05)] md:pl-[98px] lg:pl-[93px] rounded-t-[20px] font-Montserrat font-bold text-[10px] md:text-xl lg:text-2xl text-[#fff]
+    @apply px-[31px] py-[14px] md:pt-[18px] md:pb-[13px] lg:py-9 bg-[rgba(196,196,196,0.05)] md:pl-[98px] lg:pl-[93px] rounded-t-[20px] font-Montserrat font-bold text-[10px] md:text-xl lg:text-2xl text-[#fff]
 }
 
 /* data base input area */
 .dataBaseInput{
-    @apply flex flex-wrap md:flex-col lg:flex-row items-center lg:justify-center gap-5 
+    @apply mt-12 flex flex-wrap md:flex-col lg:flex-row items-center lg:justify-center gap-5 
 }
 
 .dataBaseInput input {

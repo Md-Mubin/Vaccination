@@ -14,22 +14,22 @@ const CompaniesLogo = () => {
 
                         {/* logo-1 */}
                         <li>
-                            <img src="images/p1.png" alt="companies_logo" className='images' />
+                            <img src="images/p1.png" alt="companies_logo"/>
                         </li>
 
                         {/* logo-2 */}
                         <li>
-                            <img src="images/p2.png" alt="companies_logo" className='images' />
+                            <img src="images/p2.png" alt="companies_logo"/>
                         </li>
 
                         {/* logo-3 */}
                         <li>
-                            <img src="images/p3.png" alt="companies_logo" className='images' />
+                            <img src="images/p3.png" alt="companies_logo"/>
                         </li>
 
                         {/* logo-4 */}
                         <li>
-                            <img src="images/p4.png" alt="companies_logo" className='images' />
+                            <img src="images/p4.png" alt="companies_logo"/>
                         </li>
                     </ul>
                 </div>
