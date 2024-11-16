@@ -1,7 +1,7 @@
 /* =============== Vaccinated Css Part Start =============== */
 
 .mubin-whyVaccinatedSection{
-   @apply w-full py-[42px] md:pt-[58px] md:pb-[45px] lg:h-[794px] bg-[url("images/banner_bg.png")] bg-center bg-cover bg-no-repeat
+   @apply w-full py-[42px] md:pt-[58px] md:pb-[45px] lg:h-[794px] bg-[url("/images/banner_bg.png")] bg-center bg-cover bg-no-repeat
 } 
 
 /* head */

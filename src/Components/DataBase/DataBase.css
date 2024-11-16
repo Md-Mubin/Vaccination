@@ -1,7 +1,7 @@
 /* =============== Data Base Css Part Start =============== */
 
 .mubin-dataBase{
-    @apply w-full h-[497px] md:h-[596px] lg:h-[466px] bg-[url("images/dataBase_bg.png")] bg-cover bg-center bg-no-repeat relative py-[63px] 
+    @apply w-full h-[497px] md:h-[596px] lg:h-[466px] bg-[url("/images/dataBase_bg.png")] bg-cover bg-center bg-no-repeat relative py-[63px] 
 }
 
 .mubin-dataBaseArea{
