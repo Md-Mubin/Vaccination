@@ -173,7 +173,7 @@
 }
 
 .scheduleList{
-    @apply mt-5 lg:w-full flex flex-wrap gap-[10px] md:gap-[50px] justify-between bg-[rgba(196,196,196,0.05)] p-[10px] pt-5 md:p-10 rounded-t-[20px] relative
+    @apply mt-10 lg:mt-5 lg:w-full flex flex-wrap gap-[10px] md:gap-[50px] justify-between bg-[rgba(196,196,196,0.05)] p-[10px] pt-5 md:p-10 rounded-t-[20px] relative
 }
 
 .scheduleList button{
