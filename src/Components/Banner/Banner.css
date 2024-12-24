@@ -161,7 +161,7 @@
 /* ================== Schedule Part Start ================== */
 
 .scheduleHead{
-    @apply flex gap-[10px] md:gap-5 items-center font-Montserrat font-bold text-[14px] md:text-2xl text-[#fff]
+    @apply mt-14 flex gap-[10px] md:gap-5 items-center font-Montserrat font-bold text-[14px] md:text-2xl text-[#fff]
 }
 
 .scheduleIcon{

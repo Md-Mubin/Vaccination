@@ -5,11 +5,11 @@
 }
 
 .mubin-companiesLogoRow{
-    @apply flex gap-12 items-center justify-between
+    @apply flex gap-4 md:gap-12 items-center justify-between
 }
 
 .mubin-companiesLogoRow li img{
-    @apply w-[72px] md:w-[148px] lg:w-[289px] opacity-50
+    @apply opacity-50
 }
 
 /* =============== Companies Logos Css Part End =============== */

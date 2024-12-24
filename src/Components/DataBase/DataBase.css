@@ -5,7 +5,7 @@
 }
 
 .mubin-dataBaseArea{
-    @apply pb-[31px] bg-[rgba(196,196,196,0.10)] rounded-[20px]
+    @apply pb-4 md:pb-[31px] bg-[rgba(196,196,196,0.10)] rounded-[20px]
 }
 
 .dataBaseHead{
@@ -14,7 +14,7 @@
 
 /* data base input area */
 .dataBaseInput{
-    @apply mt-12 flex flex-wrap md:flex-col lg:flex-row items-center lg:justify-center gap-5 
+    @apply mt-12 ml-3 md:ml-0 flex flex-wrap items-center md:justify-center gap-5 
 }
 
 .dataBaseInput input {
@@ -30,7 +30,7 @@
 }
 /* data base result link */
 .resultLink{
-    @apply py-[13px] md:pt-[14px] md:pb-[9px] lg:py-5 px-[25px] md:px-[45px] bg-[rgba(196,196,196,0.05)] rounded-[20px] mt-[35px] md:mx-[64px] lg:ml-[96px] mr-[13px] lg:mr-[90px] font-Montserrat font-bold text-[10px] md:text-[14px] lg:text-2xl text-brandColor text-center md:flex justify-center
+    @apply ml-4 py-[13px] md:pt-[14px] md:pb-[9px] lg:py-5 px-[25px] md:px-[45px] bg-[rgba(196,196,196,0.05)] rounded-[20px] mt-[35px] md:mx-[64px] lg:ml-[96px] mr-[13px] lg:mr-[90px] font-Montserrat font-bold text-[10px] md:text-[14px] lg:text-2xl text-brandColor text-center md:flex justify-center
 }
 
 .resultLink span{
