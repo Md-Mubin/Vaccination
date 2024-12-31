@@ -10,12 +10,12 @@ import CommonScheduleList     from '../../CommonComponents/CommonScheduleList/Co
 const Banner = () => {
     return (
         <>
+            {/* --------------------------------------------- */}
             {/* ============= Banner Part Start ============= */}
 
             <section className='mubin-banner'>
 
                 {/* ------- banner background image -------*/}
-                {/* <img src="images/banner_bg.png" alt="banner_image" className='mubin-bannerBG' /> */}
 
                 <div className="container">
 
@@ -71,6 +71,7 @@ const Banner = () => {
             </section>
 
             {/* ============= Banner Part End ============= */}
+            {/* ------------------------------------------- */}
         </>
     )
 }

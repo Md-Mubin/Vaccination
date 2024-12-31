@@ -9,11 +9,11 @@
 }
 
 .mubin-scheduleItems h6{
-    @apply font-Montserrat font-semibold text-[14px] md:text-xl lg:text-2xl text-[rgba(255,255,255,0.50)]
+    @apply font-Montserrat font-semibold text-[14px] md:text-xl xl:text-2xl text-[rgba(255,255,255,0.50)]
 }
 
 .mubin-scheduleItems p{
-    @apply font-Montserrat font-bold text-[14px] md:text-xl lg:text-2xl text-[#fff] md:mt-[5px] lg:mt-0
+    @apply font-Montserrat font-bold text-[14px] md:text-xl xl:text-2xl text-[#fff] md:mt-[5px] lg:mt-0
 }
 
 /* =============== Common Schedule Cart Css Part End =============== */

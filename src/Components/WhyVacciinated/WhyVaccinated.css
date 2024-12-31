@@ -19,7 +19,7 @@
 
 /* vaccinated carts */
 .vaccinatedCarts{
-    @apply mt-10 md:mt-[50px] lg:mt-10 flex flex-wrap lg:flex-nowrap gap-10 lg:gap-[74px] justify-start md:justify-center items-end
+    @apply mt-10 md:mt-[50px] lg:mt-10 flex flex-wrap lg:flex-nowrap gap-10 lg:gap-4 xl:gap-[74px] justify-start md:justify-center items-end
 }
 
 /* big cart */

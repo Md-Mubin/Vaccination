@@ -6,6 +6,7 @@ import CommonSymptopms from '../../CommonComponents/CommonSymptopms/CommonSympto
 const Symptomps = () => {
   return (
     <>
+      {/* ------------------------------------------------------- */}
       {/* ============= Register Section Part Start ============= */}
 
       <section className='mubin-symptompsSection'>
@@ -45,7 +46,8 @@ const Symptomps = () => {
         </div>
       </section>
 
-      {/* ============= Register Section Part Start ============= */}
+      {/* ============= Register Section Part End ============= */}
+      {/* ------------------------------------------------------*/}
     </>
   )
 }

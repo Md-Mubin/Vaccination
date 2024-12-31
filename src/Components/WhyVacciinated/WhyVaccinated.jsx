@@ -9,6 +9,7 @@ import { FiThermometer } from 'react-icons/fi'
 const WhyVaccinated = () => {
     return (
         <>
+            {/* ------------------------------------------------------- */}
             {/* ============= Register Section Part Start ============= */}
 
             <section className='mubin-whyVaccinatedSection'>
@@ -50,7 +51,8 @@ const WhyVaccinated = () => {
                 </div>
             </section>
 
-            {/* ============= Register Section Part Start ============= */}
+            {/* ============= Register Section Part End ============= */}
+            {/* ----------------------------------------------------- */}
         </>
     )
 }

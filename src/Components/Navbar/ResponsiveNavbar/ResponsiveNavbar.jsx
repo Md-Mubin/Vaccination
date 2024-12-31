@@ -17,6 +17,7 @@ const ResponsiveNavbar = () => {
 
     return (
         <>
+            {/* -------------------------------------------------------- */}
             {/* ============= Responsive Navbar Part Start ============= */}
           
             <nav className='mubin-resNav'>
@@ -42,6 +43,7 @@ const ResponsiveNavbar = () => {
             </nav>
 
             {/* ============= Responsive Navbar Part End ============= */}
+            {/* ------------------------------------------------------ */}
         </>
     )
 }

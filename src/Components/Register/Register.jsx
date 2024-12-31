@@ -41,7 +41,8 @@ const Register = () => {
     }
 
     return (
-        <>
+        <>  
+            {/* ------------------------------------------------------- */}
             {/* ============= Register Section Part Start ============= */}
 
             <section className='mubin-registerSection'>
@@ -144,6 +145,7 @@ const Register = () => {
             </section>
 
             {/* ============= Register Section Part End ============= */}
+            {/* ----------------------------------------------------- */}
         </>
     )
 }

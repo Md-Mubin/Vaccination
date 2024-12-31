@@ -5,6 +5,7 @@ import React from 'react'
 const DataBase = () => {
   return (
     <>
+      {/* ------------------------------------------------ */}
       {/* ============= Data Base Part Start ============= */}
 
       <section className='mubin-dataBase'>
@@ -33,6 +34,7 @@ const DataBase = () => {
       </section>
 
       {/* ============= Data Base Part End ============= */}
+      {/* ---------------------------------------------- */}
     </>
   )
 }

@@ -10,7 +10,7 @@
 }
 
 .mubin-registerRow{
-    @apply flex items-center justify-between
+    @apply flex items-center justify-between lg:gap-10 xl:gap-0
 }
 
 /* register heading */

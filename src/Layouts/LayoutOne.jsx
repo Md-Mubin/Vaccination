@@ -7,10 +7,13 @@ import { Outlet } from 'react-router-dom'
 const LayoutOne = () => {
     return (
         <>
+            {/* ================ Navbar Part ================ */}
             <Navbar />
 
+            {/* ================ Project Part ================ */}
             <Outlet />
             
+            {/* ================ Footer Part ================ */}
             <Footer />
         </>
     )

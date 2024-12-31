@@ -5,7 +5,7 @@
 } 
 
 .mubin-bannerRow{
-    @apply relative  flex flex-col gap-[55px] lg:gap-0 lg:flex-row justify-between 
+    @apply relative flex flex-col gap-[55px] lg:gap-0 lg:flex-row justify-between 
 }
 
 /* ================== Banner Common Style Part End ================== */
@@ -25,7 +25,7 @@
 }
 
 .mubin-bannerInfo p{
-    @apply w-[271px] md:w-[502px] lg:w-[610px] lg:font-Montserrat font-bold text-[14px] md:text-xl lg:text-2xl text-[rgba(255,255,255,0.70)] leading-normal
+    @apply w-[271px] md:w-[502px] xl:w-[610px] lg:font-Montserrat font-bold text-[14px] md:text-xl lg:text-2xl text-[rgba(255,255,255,0.70)] leading-normal
 }
 
 .buttons{
@@ -45,7 +45,7 @@
 /* ================== Banner Image Part Start ================== */
 
 .bannerImage{
-    @apply relative w-[256px] md:w-[532px] m-auto lg:mr-[50px]
+    @apply relative w-[256px] md:w-[532px] lg:w-[400px] xl:w-fit m-auto lg:mr-5 xl:mr-[50px]
 }
 
 .bannerChild1{
@@ -177,7 +177,7 @@
 }
 
 .scheduleList button{
-    @apply px-12 md:px-[89px] lg:px-[25px] py-[17px] md:py-5 bg-brandColor rounded-[20px] font-Montserrat font-bold text-[14px] md:text-xl lg:text-2xl text-[#fff] lg:ml-[69px] duration-200
+    @apply px-12 md:px-[89px] lg:px-[25px] py-[17px] md:py-5 bg-brandColor rounded-[20px] font-Montserrat font-bold text-[14px] md:text-xl lg:text-2xl text-[#fff] xl:ml-[69px] duration-200
 }
 
 .scheduleList button:hover{

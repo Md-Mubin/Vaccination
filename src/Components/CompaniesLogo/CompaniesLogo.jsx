@@ -5,7 +5,9 @@ import React from 'react'
 const CompaniesLogo = () => {
     return (
         <>
+            {/* ------------------------------------------------------ */}
             {/* ============= Companies Logos Part Start ============= */}
+
             <section className='mubin-companiesLogo'>
                 <div className="container">
 
@@ -36,6 +38,7 @@ const CompaniesLogo = () => {
             </section>
 
             {/* ============= Companies Logos Part End ============= */}
+            {/* ---------------------------------------------------- */}
         </>
     )
 }

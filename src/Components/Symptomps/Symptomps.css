@@ -41,19 +41,19 @@
 }
 
 .symptompsName li{
-    @apply m-auto flex font-Montserrat font-semibold text-[8px] md:text-lg lg:text-xl text-brandColor
+    @apply m-auto flex font-Montserrat font-semibold text-[8px] md:text-lg xl:text-xl text-brandColor
 }
 
 .symptomps1{
-    @apply gap-[60px] md:gap-[150px] lg:gap-[434px] 
+    @apply gap-[60px] md:gap-[150px] xl:gap-[434px] 
 }
 
 .symptomps2{
-    @apply gap-[121px] md:gap-[248px] lg:gap-[625px]
+    @apply gap-[121px] md:gap-[248px] xl:gap-[625px]
 }
 
 .symptomps3{
-    @apply gap-[141px] md:gap-[289px] lg:gap-[837px]
+    @apply gap-[141px] md:gap-[289px] xl:gap-[837px]
 }
 
 /* =============== Symptomps Css Part End =============== */

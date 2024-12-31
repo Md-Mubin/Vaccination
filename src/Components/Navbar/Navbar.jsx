@@ -1,27 +1,32 @@
 // ================= All Documentation
 import                       './Navbar.css'
-import React, { useEffect, useRef, useState }            from 'react'
 import { Link }         from 'react-router-dom'
 import ResponsiveNavbar from './ResponsiveNavbar/ResponsiveNavbar'
+import React, { useEffect, useRef, useState } from 'react'
 
 const Navbar = () => {
 
+  // ============== All hooks
   const [line, setLine] = useState({width: 0, left: 0})
   const navRef = useRef()
   const firstItemRef = useRef()
 
+  // ============== All Functions
+  // useeffecet render 
   useEffect(()=>{
     const firstItem = firstItemRef.current.getBoundingClientRect()
     const navOffset = navRef.current.getBoundingClientRect().left
     setLine({width: firstItem.width, left: firstItem.left - navOffset})
   },[])
 
+  // ============== handle hover part
   const handleHover = (e)=>{
     const target = e.target.getBoundingClientRect()
     const navOffset = navRef.current.getBoundingClientRect().left
     setLine({width: target.width, left: target.left - navOffset})
   }
 
+  // ============== Remove Hover Part
   const handleRemoveHover = ()=>{
     const firstItem = navRef.current.getBoundingClientRect()
     const navOffset = navRef.current.getBoundingClientRect().left
@@ -30,6 +35,7 @@ const Navbar = () => {
 
   return (
     <>
+      {/* --------------------------------------------------------------- */} 
       {/* ====================== Navbar Part Start ====================== */}
 
       <nav className='mubin-navBar'>
@@ -60,6 +66,7 @@ const Navbar = () => {
       </nav>
 
       {/* ====================== Navbar Part End ====================== */}
+      {/* ------------------------------------------------------------- */}
     </>
   )
 }

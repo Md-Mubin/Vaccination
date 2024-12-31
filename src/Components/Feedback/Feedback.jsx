@@ -6,6 +6,7 @@ import CommonPatients from '../../CommonComponents/CommonPatients/CommonPatients
 const Feedback = () => {
     return (
         <>
+             {/* ----------------------------------------------- */}
             {/* ============= Feed Back Part Start ============= */}
 
             <section className='mubin-feedbackSection'>
@@ -34,6 +35,7 @@ const Feedback = () => {
             </section>
 
             {/* ============= Feed Back Part End ============= */}
+            {/* ---------------------------------------------- */}
         </>
     )
 }

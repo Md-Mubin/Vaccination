@@ -9,6 +9,7 @@ import { FaInstagram, FaYoutube } from 'react-icons/fa6'
 const Footer = () => {
   return (
     <>
+      {/* --------------------------------------------- */}
       {/* ============= Footer Part Start ============= */}
 
       <footer>
@@ -41,6 +42,7 @@ const Footer = () => {
       </footer>
 
       {/* ============= Footer Part End ============= */}
+      {/* ------------------------------------------- */}
     </>
   )
 }

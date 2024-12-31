@@ -25,6 +25,7 @@ const Quote = () => {
 
     return (
         <>
+            {/* ---------------------------------------------------- */}
             {/* ============= Quote Section Part Start ============= */}
 
             <section className='mubin-quoteSection'>
@@ -49,6 +50,7 @@ const Quote = () => {
             </section>
 
             {/* ============= Quote Section Part End ============= */}
+            {/* -------------------------------------------------- */}
         </>
     )
 }

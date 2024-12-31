@@ -6,12 +6,12 @@
 
 /* feed back background images */
 .feedbackBackground{
-    @apply hidden lg:block absolute w-full h-full top-0 z-[-10]
+    @apply hidden xl:block absolute w-full h-full top-0 z-[-10]
 }
 
 /* background image for medium device */
 .feedbackBackgroundMD{
-    @apply hidden md:block lg:hidden absolute w-full h-full top-0 z-[-10]
+    @apply hidden md:block xl:hidden absolute w-full h-full top-0 z-[-10]
 }
 
 /* background image for small device */
@@ -38,7 +38,7 @@
 
 /* feed pack cart reviewers */
 .mubin-patientCarts{
-    @apply mt-4 md:mt-[60px] lg:mt-[100px] flex flex-col lg:flex-row lg:justify-between md:items-center gap-[30px] lg:gap-0
+    @apply mt-4 md:mt-[60px] lg:mt-[100px] flex flex-col xl:flex-row lg:justify-between md:items-center gap-[30px] xl:gap-0
 }
 
 /* =============== Feed Back Css Part End =============== */
