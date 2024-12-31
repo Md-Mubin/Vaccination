@@ -21,7 +21,7 @@ To download the project follow the instructions bellow
 
 ```
 https://github.com/Md-Mubin/Vaccination.git
-cd myreads
+
 ```
 
 Install dependencies and run with:
