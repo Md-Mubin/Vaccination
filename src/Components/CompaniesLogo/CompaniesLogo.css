@@ -1,7 +1,7 @@
 /* =============== Companies Logos Css Part Start =============== */
 
 .mubin-companiesLogo{
-    @apply w-full bg-[rgba(255,255,255,0.50)] pt-[5px] md:pt-[11px] lg:pt-[21px] pb-[3px] md:pb-2 lg:pb-[10px] 
+    @apply w-full bg-[rgba(255,255,255,0.50)] pt-[5px] md:pt-[11px] lg:pt-[21px] pb-[3px] md:pb-2 lg:pb-[10px] overflow-hidden
 }
 
 .mubin-companiesLogoRow{
