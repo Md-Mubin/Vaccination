@@ -1,7 +1,7 @@
 /* ================== Banner Common Style Part Start ================== */
 
 .mubin-banner{
-    @apply relative w-full bg-[url('/images/banner_bg.png')] bg-no-repeat bg-center bg-cover pt-[127px] md:pt-[126px] lg:pt-[211px]
+    @apply relative w-full bg-[url('/images/banner_bg.png')] bg-no-repeat bg-center bg-cover bg-fixed pt-[127px] md:pt-[126px] lg:pt-[211px]
 } 
 
 .mubin-bannerRow{
